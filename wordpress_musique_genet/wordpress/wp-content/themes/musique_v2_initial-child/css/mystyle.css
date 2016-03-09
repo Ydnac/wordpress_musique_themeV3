@@ -1,0 +1,9 @@
+.thumbnail.artist {
+	position : relative;
+}
+
+.thumbnail.artist .caption {
+	position : absolute;
+	bottom : 0;
+	right : 0;	
+}

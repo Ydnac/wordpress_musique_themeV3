@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-02-15 09:30+0100\n"
+"PO-Revision-Date: 2016-02-15 09:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _x:2c,1;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/metaboxes_examples.php\n"
+"X-Poedit-SearchPathExcluded-1: cmb2\n"
+"X-Poedit-SearchPathExcluded-2: bootstrap\n"
+"X-Poedit-SearchPathExcluded-3: admin/redux-extensions\n"
+"X-Poedit-SearchPathExcluded-4: admin/redux-framework\n"
+"X-Poedit-SearchPathExcluded-5: admin/options-init-sample.php\n"
+"X-Poedit-SearchPathExcluded-6: admin/tgm\n"
+
+#: admin/options-init.php:110
+msgid "Theme Information 1"
+msgstr ""
+
+#: admin/options-init.php:111 admin/options-init.php:116
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: admin/options-init.php:115
+msgid "Theme Information 2"
+msgstr ""
+
+#: admin/options-init.php:122
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: admin/options-init.php:135
+msgid "Styling"
+msgstr ""
+
+#: admin/options-init.php:137 admin/options-init.php:193
+msgid "Basic fields as subsections."
+msgstr ""
+
+#: admin/options-init.php:142
+msgid "Background"
+msgstr "Fond"
+
+#: admin/options-init.php:152
+msgid "Site Background"
+msgstr ""
+
+#: admin/options-init.php:161 admin/options-init.php:168
+msgid "Typography"
+msgstr "Typographie"
+
+#: admin/options-init.php:177
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: admin/options-init.php:191
+msgid "Front Page"
+msgstr "Page d’accueil"
+
+#: admin/options-init.php:198
+msgid "Slider"
+msgstr "Slider"
+
+#: admin/options-init.php:205
+msgid "Images Slider"
+msgstr "Les images du slider"
+
+#: admin/options-init.php:206
+msgid "Unlimited slides with drag and drop sortings."
+msgstr ""
+
+#: admin/options-init.php:207
+msgid ""
+"This field will store all slides values into a multidimensional array to use "
+"into a foreach loop."
+msgstr ""
+
+#: admin/options-init.php:209
+msgid "This is a title"
+msgstr "Ceci est un titre"
+
+#: admin/options-init.php:210
+msgid "Description Here"
+msgstr "Une description ici"
+
+#: admin/options-init.php:211
+msgid "Give us a link!"
+msgstr "Donnez nous un lien"
+
+#: admin/options-init.php:217
+msgid "Options du diaporama de type BxSlider"
+msgstr ""
+
+#: admin/options-init.php:222
+msgid "Slider Max Width"
+msgstr ""
+
+#: admin/options-init.php:232
+msgid "Slider Min Slides"
+msgstr ""
+
+#: admin/options-init.php:242
+msgid "Slider Max Slides"
+msgstr ""
+
+#: admin/options-init.php:252
+msgid "Slider Margin Slides"
+msgstr ""
+
+#: admin/options-init.php:262
+msgid "Slider Pager Slides"
+msgstr ""
+
+#: admin/options-init.php:269
+msgid "Slider Captions Slides"
+msgstr ""
+
+#: admin/options-init.php:276
+msgid "Slider Move Slides"
+msgstr ""
+
+#: lib/custom_types.php:5
+msgctxt "Post Type General Name"
+msgid "Artists"
+msgstr "Artistes"
+
+#: lib/custom_types.php:6
+msgctxt "Post Type Singular Name"
+msgid "Artist"
+msgstr "Artiste"
+
+#: lib/custom_types.php:7
+msgid "Artists"
+msgstr "Artistes"
+
+#: lib/custom_types.php:8 lib/custom_types.php:32 lib/metaboxes.php:98
+msgid "Artist"
+msgstr "Artiste"
+
+#: lib/custom_types.php:9
+msgid "All Archives Artist"
+msgstr "Tous les artistes"
+
+#: lib/custom_types.php:10
+msgid "Parent Artist:"
+msgstr "Artiste Parent:"
+
+#: lib/custom_types.php:11
+msgid "All Artists"
+msgstr "Tous les artistes"
+
+#: lib/custom_types.php:12
+msgid "Add New Artist"
+msgstr "Ajouter un artiste"
+
+#: lib/custom_types.php:13 lib/custom_types.php:66
+msgid "Add New"
+msgstr "Ajouter"
+
+#: lib/custom_types.php:14 lib/custom_types.php:67
+msgid "New Item"
+msgstr "Nouvel élément"
+
+#: lib/custom_types.php:15
+msgid "Edit Artist"
+msgstr "Modifier l’artiste"
+
+#: lib/custom_types.php:16
+msgid "Update Artist"
+msgstr ""
+"Mettre à jour A\n"
+"rtiste"
+
+#: lib/custom_types.php:17
+msgid "View Artist"
+msgstr "Voir Artiste"
+
+#: lib/custom_types.php:18
+msgid "Search Artist"
+msgstr "Chercher un artiste"
+
+#: lib/custom_types.php:19
+msgid "Not Artist found"
+msgstr "Aucun artiste trouvé"
+
+#: lib/custom_types.php:20
+msgid "Not Artist found in Trash"
+msgstr "Aucun artiste trouvé dans la corbeille"
+
+#: lib/custom_types.php:21 lib/custom_types.php:74
+msgid "Featured Image"
+msgstr "Image à la Une"
+
+#: lib/custom_types.php:22 lib/custom_types.php:75
+msgid "Set featured image"
+msgstr "Mettre une image à la une"
+
+#: lib/custom_types.php:23 lib/custom_types.php:76
+msgid "Remove featured image"
+msgstr "Supprimer l’image à la une"
+
+#: lib/custom_types.php:24 lib/custom_types.php:77
+msgid "Use as featured image"
+msgstr "Utiliser comme image à la Une"
+
+#: lib/custom_types.php:25 lib/custom_types.php:78
+msgid "Insert into item"
+msgstr "Insérer dans l’item"
+
+#: lib/custom_types.php:26 lib/custom_types.php:79
+msgid "Uploaded to this item"
+msgstr "Téléchargé dans cet item"
+
+#: lib/custom_types.php:27 lib/custom_types.php:80 lib/taxonomies.php:23
+msgid "Items list"
+msgstr "Liste des items"
+
+#: lib/custom_types.php:28 lib/custom_types.php:81 lib/taxonomies.php:24
+msgid "Items list navigation"
+msgstr ""
+
+#: lib/custom_types.php:29 lib/custom_types.php:82
+msgid "Filter items list"
+msgstr ""
+
+#: lib/custom_types.php:33
+msgid "Artist Label"
+msgstr "Artiste du label"
+
+#: lib/custom_types.php:58
+msgctxt "Post Type General Name"
+msgid "Videos"
+msgstr "Vidéos"
+
+#: lib/custom_types.php:59
+msgctxt "Post Type Singular Name"
+msgid "Video"
+msgstr "Vidéo"
+
+#: lib/custom_types.php:60
+msgid "Videos"
+msgstr "Vidéos"
+
+#: lib/custom_types.php:61 lib/custom_types.php:85
+msgid "Video"
+msgstr "Vidéo"
+
+#: lib/custom_types.php:62
+msgid "All Archives Video"
+msgstr "Toutes les vidéos"
+
+#: lib/custom_types.php:63
+msgid "Parent Video:"
+msgstr "Vidéo Parent :"
+
+#: lib/custom_types.php:64
+msgid "All Videos"
+msgstr "Toutes les vidéos"
+
+#: lib/custom_types.php:65
+msgid "Add New Video"
+msgstr "Ajouter une nouvelle vidéo"
+
+#: lib/custom_types.php:68
+msgid "Edit Video"
+msgstr "Modifier une vidéo"
+
+#: lib/custom_types.php:69
+msgid "Update Video"
+msgstr "Mettre à jour une vidéo"
+
+#: lib/custom_types.php:70
+msgid "View Video"
+msgstr "Voir la vidéo"
+
+#: lib/custom_types.php:71
+msgid "Search Video"
+msgstr "Chercher parmi les vidéos"
+
+#: lib/custom_types.php:72
+msgid "Not Video found"
+msgstr "Aucune vidéo trouvée"
+
+#: lib/custom_types.php:73
+msgid "Not Video found in Trash"
+msgstr "Aucune vidéo trouvée dans la corbeille"
+
+#: lib/custom_types.php:86
+msgid "Artist Video"
+msgstr "Vidéo d’un artiste"
+
+#: lib/init.php:10
+msgid "Primary Navigation"
+msgstr "Menu de navigation principal"
+
+#: lib/init.php:11
+msgid "Footer Navigation"
+msgstr "Menu de navigation du bas"
+
+#: lib/init.php:35
+msgid "Primary Sidebar"
+msgstr "Sidebar primaire"
+
+#: lib/init.php:37
+msgid "Main sidebar that appears on the right."
+msgstr "Sidebar principale qui apparait sur la droite"
+
+#: lib/metaboxes.php:32
+msgid "Artist Social Informations"
+msgstr "Informations réseaux sociaux"
+
+#: lib/metaboxes.php:37
+msgid "Facebook "
+msgstr "Facebook"
+
+#: lib/metaboxes.php:43
+msgid "Twitter "
+msgstr "Twitter"
+
+#: lib/metaboxes.php:57
+msgid "Artist Options"
+msgstr "Artiste Options"
+
+#: lib/metaboxes.php:62
+msgid "Artist Color"
+msgstr "Couleur de l’artiste"
+
+#: lib/metaboxes.php:63
+msgid "Select Artist color"
+msgstr "Sélectionnez une couleur pour l’artiste"
+
+#: lib/metaboxes.php:78
+msgid "Video Informations"
+msgstr "Vidéo Informations"
+
+#: lib/metaboxes.php:83
+msgid "Video Code "
+msgstr "Code Vidéo"
+
+#: lib/metaboxes.php:84
+msgid "Enter a youtube, twitter, or instagram URL"
+msgstr ""
+
+#: lib/metaboxes.php:90
+msgid "Music Style"
+msgstr "Style de Musique"
+
+#: lib/metaboxes.php:91
+msgid "Music Style of the video"
+msgstr ""
+
+#: lib/metaboxes.php:99
+msgid "Artist of the video"
+msgstr ""
+
+#: lib/taxonomies.php:5
+msgctxt "Taxonomy General Name"
+msgid "Music Styles"
+msgstr "Styles de Musique"
+
+#: lib/taxonomies.php:6
+msgctxt "Taxonomy Singular Name"
+msgid "Music Style"
+msgstr "Style de Musique"
+
+#: lib/taxonomies.php:7
+msgid "Music Styles"
+msgstr "Styles de Musique"
+
+#: lib/taxonomies.php:8
+msgid "All Music Styles"
+msgstr "Tous les styles de Musique"
+
+#: lib/taxonomies.php:9
+msgid "Parent Music Styles"
+msgstr "Styles de Musique Parent"
+
+#: lib/taxonomies.php:10
+msgid "Parent Music Styles:"
+msgstr "Styles de Musique Parent :"
+
+#: lib/taxonomies.php:11
+msgid "New Music Style Name"
+msgstr "Nouveau style de Musique"
+
+#: lib/taxonomies.php:12
+msgid "Add New Music Style"
+msgstr "Ajouter un nouveau style de Musique"
+
+#: lib/taxonomies.php:13
+msgid "Edit Music Style"
+msgstr "Editer un style de Musique"
+
+#: lib/taxonomies.php:14
+msgid "Update Music Style"
+msgstr "Mettre à jour un style de Musique"
+
+#: lib/taxonomies.php:15
+msgid "View Item"
+msgstr "Voir l’item"
+
+#: lib/taxonomies.php:16
+msgid "Separate Music Styles with commas"
+msgstr "Séparer les Styles de Musique par des virgules"
+
+#: lib/taxonomies.php:17
+msgid "Add or remove Music Styles"
+msgstr "Ajouter ou supprimer des Styles de Musique"
+
+#: lib/taxonomies.php:18
+msgid "Choose from the most used Music Style"
+msgstr "Choisir parmi les styles de Musique les plus utilisés"
+
+#: lib/taxonomies.php:19
+msgid "Popular Music Styles"
+msgstr "Styles de Musique populaires"
+
+#: lib/taxonomies.php:20
+msgid "Search Music Styles"
+msgstr "Rechercher dans les styles de Musique"
+
+#: lib/taxonomies.php:21
+msgid "Not Music Styles Found"
+msgstr "Aucun style de Musique trouvé"
+
+#: lib/taxonomies.php:22
+msgid "No items"
+msgstr "Pas d’items"
+
+#: template-parts/content-none.php:6
+msgid "Nothing to display"
+msgstr "Rien à afficher."
+
+#: template-parts/musique/module-video.php:7
+msgid "Featured Video"
+msgstr ""
+
+#: template-parts/musique/module-videos.php:22
+msgid "Latest Videos"
+msgstr ""
+
+#~ msgid "Place Embed Code Here, works with youtube, vimeo..."
+#~ msgstr "Placez ici le code « embed », fonctionne avec youtube, vimeo, …"

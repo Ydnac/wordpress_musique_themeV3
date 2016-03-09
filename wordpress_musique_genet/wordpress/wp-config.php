@@ -1,0 +1,95 @@
+<?php
+/**
+ * La configuration de base de votre installation WordPress.
+ *
+ * Ce fichier contient les réglages de configuration suivants : réglages MySQL,
+ * préfixe de table, clefs secrètes, langue utilisée, et ABSPATH.
+ * Vous pouvez en savoir plus à leur sujet en allant sur
+ * {@link http://codex.wordpress.org/fr:Modifier_wp-config.php Modifier
+ * wp-config.php}. C'est votre hébergeur qui doit vous donner vos
+ * codes MySQL.
+ *
+ * Ce fichier est utilisé par le script de création de wp-config.php pendant
+ * le processus d'installation. Vous n'avez pas à utiliser le site web, vous
+ * pouvez simplement renommer ce fichier en "wp-config.php" et remplir les
+ * valeurs.
+ *
+ * @package WordPress
+ */
+
+// ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
+/** Nom de la base de données de WordPress. */
+define('DB_NAME', 'wordpress_musique_genet');
+
+/** Utilisateur de la base de données MySQL. */
+define('DB_USER', 'root');
+
+/** Mot de passe de la base de données MySQL. */
+define('DB_PASSWORD', '');
+
+/** Adresse de l'hébergement MySQL. */
+define('DB_HOST', 'localhost');
+
+/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
+define('DB_CHARSET', 'utf8mb4');
+
+/** Type de collation de la base de données.
+  * N'y touchez que si vous savez ce que vous faites.
+  */
+define('DB_COLLATE', '');
+
+/**#@+
+ * Clefs uniques d'authentification et salage.
+ *
+ * Remplacez les valeurs par défaut par des phrases uniques !
+ * Vous pouvez générer des phrases aléatoires en utilisant
+ * {@link https://api.wordpress.org/secret-key/1.1/salt/ le service de clefs secrètes de WordPress.org}.
+ * Vous pouvez modifier ces phrases à n'importe quel moment, afin d'invalider tous les cookies existants.
+ * Cela forcera également tous les utilisateurs à se reconnecter.
+ *
+ * @since 2.6.0
+ */
+define('AUTH_KEY',         'c5i~lB.}<9~g3 5=04@=GPofID44Yu,z7kNb2z65W.g?-#32t&6{DSoT0l#U+!1c');
+define('SECURE_AUTH_KEY',  '6b{B|IE=H!KF,/Z_2 tnaRU7;S!_WH&d_=&hdC6G_pRRcN lBuB7(DFAnihHmziT');
+define('LOGGED_IN_KEY',    '<T`VR!1%6V(kTbv!TO,ixLpdUM<[Ocy$[L~@lb +YNXqXW}Cn7}wMhaSf`{I!eP+');
+define('NONCE_KEY',        '#$`ZdOCjYol{#ohw~g9bcfC;Bj]%GE&h-E^k>W%x|!Hu[OK^w~|Uz:A voOK6>oh');
+define('AUTH_SALT',        'b1E?pj$#{ky554q8TxN7sr+t a>t[_kyxdsKJbsIe!08gVqr[bVu4<U^7|;@)X1x');
+define('SECURE_AUTH_SALT', '~}zSD)9yNmip-a*>rhGi,p<,}-L=P|{Qv~?K=>l>R~yGEkiw8<$e6L1#<P_(?N`k');
+define('LOGGED_IN_SALT',   '| % 3@7SoPK~Y4{#qkW$i-4kQtsDnu>-,-|;=Qt)*~4&)hs.nGA<C#<F58r!.<n}');
+define('NONCE_SALT',       'tQV+%2,J=mU:vV{wz<[  ys^0xAW@}F:nz5B!O3)Z~2n(!2Wy}cH,3<pls@{61>Y');
+/**#@-*/
+
+/**
+ * Préfixe de base de données pour les tables de WordPress.
+ *
+ * Vous pouvez installer plusieurs WordPress sur une seule base de données
+ * si vous leur donnez chacune un préfixe unique.
+ * N'utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés!
+ */
+$table_prefix  = 'wp_';
+
+/**
+ * Pour les développeurs : le mode déboguage de WordPress.
+ *
+ * En passant la valeur suivante à "true", vous activez l'affichage des
+ * notifications d'erreurs pendant vos essais.
+ * Il est fortemment recommandé que les développeurs d'extensions et
+ * de thèmes se servent de WP_DEBUG dans leur environnement de
+ * développement.
+ */
+define('WP_DEBUG', false);
+
+/* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
+
+/** Chemin absolu vers le dossier de WordPress. */
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
+
+/** Réglage des variables de WordPress et de ses fichiers inclus. */
+require_once(ABSPATH . 'wp-settings.php');
+
+/*	Configure	proxy	Server	*/
+define('WP_PROXY_HOST',	'proxymmi');
+define('WP_PROXY_PORT',	'3128');
+define('WP_PROXY_USERNAME',	'');
+define('WP_PROXY_PASSWORD',	'');

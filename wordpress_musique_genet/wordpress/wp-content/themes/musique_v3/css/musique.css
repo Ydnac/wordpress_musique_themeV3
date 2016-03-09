@@ -1,0 +1,60 @@
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail.artist .caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.thumbnail.video {
+	
+}
+
+.thumbnail.video .caption {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	right : 5px;
+	bottom : 5px;
+}
+
+.thumbnail.video .caption a {
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left :0;
+}
+
+.thumbnail.video .caption a i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.thumbnail.video .caption a i:hover {
+	color: red;
+}
+
+.thumbnail.video .caption a span {
+	position: absolute;
+	bottom : 0;
+	left : 0;
+	right : 0;
+}
+
+#home_slider {
+	margin-bottom: 20px;
+}
+
+#home_slider .wrapper_bx {
+	margin-left : 5px;
+	margin-right: -5px;
+}
